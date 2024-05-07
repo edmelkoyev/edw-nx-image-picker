@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import NxWelcome from './nx-welcome';
+import ImgPicker from './imgpicker';
 
 const StyledApp = styled.div`
   // Your style here
@@ -9,7 +9,7 @@ const StyledApp = styled.div`
 export function App() {
   return (
     <StyledApp>
-      <NxWelcome title="edw-nx-image-picker" />
+      <ImgPicker title="edw-nx-image-picker-zzz" />
     </StyledApp>
   );
 }
